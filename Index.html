@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Art Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Pixel Art Studio</h1>
+        <nav>
+            <ul>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#artmaker">Pixel Art Maker</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="games">
+            <h2>Games</h2>
+            <div class="game" id="game1"><button onclick="startGame('Game 1')">Play Game 1</button></div>
+            <div class="game" id="game2"><button onclick="startGame('Game 2')">Play Game 2</button></div>
+            <div class="game" id="game3"><button onclick="startGame('Game 3')">Play Game 3</button></div>
+        </section>
+        <section id="artmaker">
+            <h2>Pixel Art Maker</h2>
+            <canvas id="pixelCanvas"></canvas>
+            <button id="clearCanvas">Clear Canvas</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Pixel Art Studio</p>
+    </footer>
+</body>
+</html>
